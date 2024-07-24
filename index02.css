@@ -1,0 +1,11 @@
+/* *{
+    color:rosybrown ; this is a universal selector that select everything in once
+} */
+h1{color: blue; background-color: chartreuse;}
+p{color: aquamarine;}
+h2 {color: darkgoldenrod; background-color: crimson;}
+#Educational { color: hotpink;}
+#Clothing {color: brown;}
+.brand {color:olivedrab; background-color: aliceblue;}
+#mackking, .Complete {color: aliceblue; background-color: black;}
+#ds p {color:hotpink;}
