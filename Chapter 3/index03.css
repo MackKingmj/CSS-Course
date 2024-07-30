@@ -1,0 +1,19 @@
+#box1{height:100px; width:100px; background-color: darkgrey; text-align: right;}
+#head{background-color:bisque; text-decoration: line-through;} 
+#link{text-decoration: none;}
+.buc{text-decoration: overline;}
+#bu1 {text-decoration-style: dotted;text-decoration-color:rgb(215, 247, 7); text-transform: lowercase;} /* text decoration (style,color,transform) */
+#bu2 {text-decoration-style: wavy; text-decoration-color: brown; text-transform: uppercase} /* text decoration (style,color,transform) */
+#bu3 {text-decoration-style:dashed; text-decoration-color:darkred; text-transform: capitalize;}/* text decoration (style,color,transform) */
+#bu4 {text-decoration-style: solid;text-decoration-color:pink;text-transform:none ;}/* text decoration (style,color,transform) */
+#fpara{line-height: 10px; font-size: 20px; font-weight: 600; font-style: oblique;} /*Line height, font(size,weight,style) */
+#spara{line-height: 7px; font-size: 40px; font-weight: 900; font-style: italic;} /*Line height, font(size,weight,style) */
+#fop1{font-family: Arial, Helvetica, sans-serif;}
+#fop2{font-family: "Playwrite AR", cursive;}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
