@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model practice</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+        }
+        #box1{ 
+            height: 100px; 
+            width:100px; 
+            padding: 100px;
+            margin: 100px; 
+            background-color: brown;
+            border: dotted black 40px;
+            border-radius: 300px;
+            text-align: center;
+        }
+        #box2 { 
+            text-align: center;
+            border: dotted red 10px;
+            border-radius: 30px;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="mod">practice</div>
+    <button id="box2" class="mod2">I am a Button</button>
+</body>
+</html>
