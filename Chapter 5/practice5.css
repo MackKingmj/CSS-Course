@@ -1,0 +1,41 @@
+*{
+    margin: 0; padding: 0;
+}
+header{
+    background-color: rgb(181, 224, 224);
+    height: 30px;
+}
+nav a {
+    text-decoration: none;
+    margin-left: 105px;
+    padding: 5px;
+}
+#second{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.box{
+    background-color: burlywood;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+#container{
+    border: 1px solid rgb(0, 0, 0);
+}
+#box3{
+    position: fixed;
+    right: 50px;
+}
+#box2{
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    background-color: blue;
+}
